@@ -1,8 +1,8 @@
 options( digits = 16 )
 library( jsonlite )
 
-d1 = 1
-d2 = 1
+d1 = 2
+d2 = 3
 probs = 0:24 / 25
 y = qf( probs, d1, d2 )
 

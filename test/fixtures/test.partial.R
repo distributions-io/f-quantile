@@ -2,7 +2,7 @@ options( digits = 16 )
 library( jsonlite )
 
 
-d1 = 1
+d1 = 9
 d2 = 1
 probs = c( 0, 0.25, 0.5, 0.75, 1 )
 y = qf( probs, d1, d2 )
